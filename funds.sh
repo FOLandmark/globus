@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-echo this file computes the funds availbale for the globus project
+echo this file computes the funds available for the globus project
 echo State the total project budget for globus
 sleep 1
 read budget
