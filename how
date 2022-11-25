@@ -1,0 +1,23 @@
+[33mcommit 84ddd51df864d9865a49799ea610be8b88c6096b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mglobus/master[m[33m)[m
+Author: FOLandmark <118616163+FOLandmark@users.noreply.github.com>
+Date:   Thu Nov 24 20:35:12 2022 -0700
+
+    Update funds.sh
+
+[1mdiff --git a/funds.sh b/funds.sh[m
+[1mindex a09a186..2099388 100644[m
+[1m--- a/funds.sh[m
+[1m+++ b/funds.sh[m
+[36m@@ -4,12 +4,8 @@[m [mecho this file computes the funds available for the globus project[m
+ echo State the total project budget for globus[m
+ sleep 1[m
+ read budget[m
+[31m-[m
+[31m-[m
+ echo The total budget for globus is $budget[m
+ echo What will each team member be paid annually?[m
+[31m- [m
+ read salary[m
+[31m-[m
+ let sales=$(($budget/$salary))[m
+ echo "The average pay for members of project globus is" $sales[m
