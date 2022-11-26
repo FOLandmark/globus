@@ -9,3 +9,4 @@ echo What will each team member be paid annually?
 read salary
 let sales=$(($budget/$salary))
 echo "The average pay for members of project globus is" $sales
+Check edit on remote code repo with grp31
